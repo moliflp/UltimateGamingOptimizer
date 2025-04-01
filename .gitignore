@@ -1,0 +1,23 @@
+# Ignore PowerShell backup and temporary files
+*.ps1~
+*.psm1~
+*.tmp
+*.bak
+*.log
+
+# Ignore output directories
+/logs/
+/out/
+/bin/
+/obj/
+
+# Ignore user-specific files
+*.user
+*.suo
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Optional: Ignore VSCode settings
+.vscode/
